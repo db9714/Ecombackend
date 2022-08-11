@@ -1,6 +1,4 @@
 const multer = require('multer');
-// const ID = 'AKIA2MQFOIDYE2XNFPCW';
-// const SECRET = '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';
 var multerS3 = require("multer-s3");
 const BUCKET_NAME = 'ecom-images0607';
 const { S3Client, S3 } = require('@aws-sdk/client-s3')
